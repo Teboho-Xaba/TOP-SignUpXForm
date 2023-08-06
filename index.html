@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="/images/odin-lined.png" type="image/x-icon">
+</head>
+<body>
+    <main class="container">
+        <div class="image">
+        </div>
+        <form action="" method="" onsubmit="return checkPass(this)">
+            <div class="form-container">
+                <h1>Get Started</h1>
+                <p>Please ensure to fill in all your information as it is necessary to advance to the next page.</p>
+
+                <div class="inputs">
+                    <div class="input-container">
+                        <label for="f-name">First name</label>
+                        <input type="text" id="f-name" placeholder="John" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="l-name">Second name</label>
+                        <input type="text" id="l-name" placeholder="Doe" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@email.com" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="phone-number">Phone</label>
+                        <input type="number" id="phone-number" placeholder="Phone Number" minlength="9" maxlength="13" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="pswd">Password</label>
+                        <input type="password" id="pswd" placeholder="Password" required>
+                    </div>
+
+                    <div class="input-container">
+                        <label for="same-pswd">Confirm Password</label>
+                        <input type="password" id="same-pswd" placeholder="Confirm Password" required>
+                    </div>
+                </div>
+
+                    <button>Create Account</button>
+
+                    <h6>Already have an account? <a href="#">Log In.</a></h6>
+
+            </div>
+        </form>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
